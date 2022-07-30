@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <label for="input-red-scale">Red</label>
+      <input
+        type="number"
+        name="input-red-scale"
+        id="input-red-scale"
+        min="0"
+        max="255"
+      />
+      <label for="input-green-scale">Green</label>
+      <input
+        type="number"
+        name="input-green-scale"
+        id="input-green-scale"
+        min="0"
+        max="255"
+      />
+      <label for="input-blue-scale">Blue</label>
+      <input
+        type="number"
+        name="input-blue-scale"
+        id="input-blue-scale"
+        min="0"
+        max="255"
+      />
+      <button type="button" id="active-button">get new color!</button>
+    </div>
+    <div><p id="input-error"></p></div>
+    <div class="colors-results">
+      <div class="color-and-header">
+        <div class="header"><h3 id="if-color1-shown"></h3></div>
+
+        <div class="picked-color" id="picked-color1"></div>
+      </div>
+      <div>
+        <div class="header"><h3 id="if-color2-shown"></h3></div>
+
+        <div class="picked-color" id="picked-color2"></div>
+      </div>
+    </div>
+  </body>
+</html>

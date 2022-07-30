@@ -1,0 +1,19 @@
+.picked-color {
+  width: 200px;
+  height: 200px;
+  border: solid 3px black;
+  border-radius: 50%;
+  margin: 50px;
+}
+
+.colors-results {
+  display: flex;
+}
+
+.color-and-header {
+  display: block;
+}
+
+.header {
+  height: 35px;
+}
